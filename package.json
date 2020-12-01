@@ -3,7 +3,7 @@
 	"displayName": "github-authentication-sample",
 	"description": "Example of using the GitHub Authentication Provider",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "nikolaytoplev",
 	"engines": {
 		"vscode": "^1.48.0"
 	},
@@ -21,7 +21,22 @@
 				"title": "Get GitHub User",
 				"category": "GitHub Authentication Sample"
 			}
-		]
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Github Authentication Configuration",
+			"properties": {
+				"githubAuth.license_key": {
+					"type": "string",
+					"default": "",
+					"description": "License Key"
+				}
+			}
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nikolaytoplev/vs-code-stripe.git"
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -36,6 +51,7 @@
 		"typescript": "^3.5.1"
 	},
 	"dependencies": {
-		"@octokit/rest": "^18.0.0"
+		"@octokit/rest": "^18.0.0",
+		"vscode-extension-telemetry": "^0.1.6"
 	}
 }

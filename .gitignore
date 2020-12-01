@@ -1,0 +1,11 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/out
+
+# dependencies
+/node_modules
+
+/.vscode
+/demo.gif
+/github-authentication-sample-0.0.1.vsix

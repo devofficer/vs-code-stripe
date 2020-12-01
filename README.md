@@ -4,7 +4,7 @@ This is a GitHub authentication example that shows you how to use the VS Code au
 
 ## Demo
 
-![demo](demo.gif)
+![demo](https://github.com/nikolaytoplev/vs-code-stripe/blob/main/demo.gif)
 
 ## VS Code API
 
